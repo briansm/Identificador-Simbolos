@@ -1,0 +1,7 @@
+C:\Users\Brian\Documents\Semestres\LFP\Identificador\Identificador-Simbolos\Practica1\bin\Debug\Practica1.exe
+C:\Users\Brian\Documents\Semestres\LFP\Identificador\Identificador-Simbolos\Practica1\bin\Debug\Practica1.pdb
+C:\Users\Brian\Documents\Semestres\LFP\Identificador\Identificador-Simbolos\Practica1\obj\x86\Debug\Practica1.Form1.resources
+C:\Users\Brian\Documents\Semestres\LFP\Identificador\Identificador-Simbolos\Practica1\obj\x86\Debug\Practica1.Properties.Resources.resources
+C:\Users\Brian\Documents\Semestres\LFP\Identificador\Identificador-Simbolos\Practica1\obj\x86\Debug\Practica1.csproj.GenerateResource.Cache
+C:\Users\Brian\Documents\Semestres\LFP\Identificador\Identificador-Simbolos\Practica1\obj\x86\Debug\Practica1.exe
+C:\Users\Brian\Documents\Semestres\LFP\Identificador\Identificador-Simbolos\Practica1\obj\x86\Debug\Practica1.pdb

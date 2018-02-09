@@ -15,5 +15,10 @@ namespace Practica1
         {
             InitializeComponent();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Universidad San Carlos de Guatemala \n"+"Brian Morales \n"+"Lenguajes Formales de Programacion \n"+"Seccion A+ \n"+"Primer Semestre");
+        }
     }
 }

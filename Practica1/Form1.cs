@@ -31,8 +31,10 @@ namespace Practica1
             //------Si se encuentra el archivo 
             if (abrirD.ShowDialog() == System.Windows.Forms.DialogResult.OK)
             {
+                //-----obtiene la informacion y la guarda en un objeto
                 StreamReader lectura = new StreamReader(abrirD.FileName);
                 String inf = lectura.ReadToEnd();
+                //-----Carga todo el string en un cuadro de texto
                 editor.Text = inf;
             }
 

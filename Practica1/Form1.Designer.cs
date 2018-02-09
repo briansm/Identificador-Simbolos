@@ -30,8 +30,8 @@
         {
             this.editor = new System.Windows.Forms.RichTextBox();
             this.richTextBox2 = new System.Windows.Forms.RichTextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.cargar = new System.Windows.Forms.Button();
+            this.analizar = new System.Windows.Forms.Button();
             this.Acercade = new System.Windows.Forms.Button();
             this.richTextBox3 = new System.Windows.Forms.RichTextBox();
             this.SuspendLayout();
@@ -54,26 +54,26 @@
             this.richTextBox2.TabIndex = 1;
             this.richTextBox2.Text = "";
             // 
-            // button1
+            // cargar
             // 
-            this.button1.Location = new System.Drawing.Point(118, 398);
-            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(63, 20);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "Cargar";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.cargar.Location = new System.Drawing.Point(118, 398);
+            this.cargar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cargar.Name = "cargar";
+            this.cargar.Size = new System.Drawing.Size(63, 20);
+            this.cargar.TabIndex = 2;
+            this.cargar.Text = "Cargar";
+            this.cargar.UseVisualStyleBackColor = true;
+            this.cargar.Click += new System.EventHandler(this.button1_Click);
             // 
-            // button2
+            // analizar
             // 
-            this.button2.Location = new System.Drawing.Point(225, 398);
-            this.button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(63, 20);
-            this.button2.TabIndex = 3;
-            this.button2.Text = "Editar";
-            this.button2.UseVisualStyleBackColor = true;
+            this.analizar.Location = new System.Drawing.Point(225, 398);
+            this.analizar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.analizar.Name = "analizar";
+            this.analizar.Size = new System.Drawing.Size(63, 20);
+            this.analizar.TabIndex = 3;
+            this.analizar.Text = "Analizar";
+            this.analizar.UseVisualStyleBackColor = true;
             // 
             // Acercade
             // 
@@ -102,8 +102,8 @@
             this.ClientSize = new System.Drawing.Size(545, 614);
             this.Controls.Add(this.richTextBox3);
             this.Controls.Add(this.Acercade);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.analizar);
+            this.Controls.Add(this.cargar);
             this.Controls.Add(this.richTextBox2);
             this.Controls.Add(this.editor);
             this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
@@ -117,8 +117,8 @@
 
         private System.Windows.Forms.RichTextBox editor;
         private System.Windows.Forms.RichTextBox richTextBox2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button cargar;
+        private System.Windows.Forms.Button analizar;
         private System.Windows.Forms.Button Acercade;
         private System.Windows.Forms.RichTextBox richTextBox3;
     }

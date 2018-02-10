@@ -39,5 +39,18 @@ namespace Practica1
             }
 
         }
+
+        private void analizar_Click(object sender, EventArgs e)
+        {
+            string texto = editor.Text;
+            Char[] cadena= texto.ToCharArray();
+            for (int i = 0; i < cadena.Length;i++)
+            {
+
+              
+                
+
+            }
+        }
     }
 }

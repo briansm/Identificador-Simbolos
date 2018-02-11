@@ -46,10 +46,19 @@ namespace Practica1
             Char[] cadena= texto.ToCharArray();
             for (int i = 0; i < cadena.Length;i++)
             {
-
-              
+                if(Char.IsLetter(cadena[i]))
+                {
+                    resultados.Items.Add((cadena[i].ToString()) + "--> " + "LETRA");
                 
-
+                }
+                else if (Char.IsDigit(cadena[i])) {
+                    resultados.Items.Add((cadena[i].ToString()) + "--> " + "NUMERO");
+                
+                }
+               
+                
+                
+               
             }
         }
     }

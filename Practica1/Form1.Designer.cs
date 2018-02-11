@@ -33,7 +33,7 @@
             this.analizar = new System.Windows.Forms.Button();
             this.Acercade = new System.Windows.Forms.Button();
             this.conteo = new System.Windows.Forms.RichTextBox();
-            this.resultado = new System.Windows.Forms.TextBox();
+            this.resultados = new System.Windows.Forms.ListBox();
             this.SuspendLayout();
             // 
             // editor
@@ -87,20 +87,20 @@
             this.conteo.TabIndex = 5;
             this.conteo.Text = "";
             // 
-            // resultado
+            // resultados
             // 
-            this.resultado.Location = new System.Drawing.Point(292, 37);
-            this.resultado.Multiline = true;
-            this.resultado.Name = "resultado";
-            this.resultado.Size = new System.Drawing.Size(197, 312);
-            this.resultado.TabIndex = 6;
+            this.resultados.FormattingEnabled = true;
+            this.resultados.Location = new System.Drawing.Point(288, 37);
+            this.resultados.Name = "resultados";
+            this.resultados.Size = new System.Drawing.Size(171, 316);
+            this.resultados.TabIndex = 6;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(545, 614);
-            this.Controls.Add(this.resultado);
+            this.Controls.Add(this.resultados);
             this.Controls.Add(this.conteo);
             this.Controls.Add(this.Acercade);
             this.Controls.Add(this.analizar);
@@ -110,7 +110,6 @@
             this.Name = "Form1";
             this.Text = "Identificador";
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -121,7 +120,7 @@
         private System.Windows.Forms.Button analizar;
         private System.Windows.Forms.Button Acercade;
         private System.Windows.Forms.RichTextBox conteo;
-        private System.Windows.Forms.TextBox resultado;
+        private System.Windows.Forms.ListBox resultados;
     }
 }
 

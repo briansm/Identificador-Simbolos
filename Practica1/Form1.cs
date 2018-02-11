@@ -42,6 +42,9 @@ namespace Practica1
 
         private void analizar_Click(object sender, EventArgs e)
         {
+            int conl = 0;
+            int conn = 0;
+            int cons = 0;
             string texto = editor.Text;
             Char[] cadena= texto.ToCharArray();
             for (int i = 0; i < cadena.Length;i++)
@@ -49,17 +52,27 @@ namespace Practica1
                 if(Char.IsLetter(cadena[i]))
                 {
                     resultados.Items.Add((cadena[i].ToString()) + "--> " + "LETRA");
-                
+                    conl++;
                 }
-                else if (Char.IsDigit(cadena[i])) {
+                else if (Char.IsDigit(cadena[i]))
+                {
                     resultados.Items.Add((cadena[i].ToString()) + "--> " + "NUMERO");
-                
+                    conn++;
                 }
-               
-                
-                
-               
+                else if (cadena[i] == 32 || cadena[i] == 10)
+                {
+                    cadena[i] = cadena[i + 1];
+                }
+
+                else {
+                    resultados.Items.Add((cadena[i].ToString()) + "--> " + "SIMBOLO");
+                    cons++;
+                }
             }
+            resultados.Items.Add("-----------------------------------------------------");
+
+            conteo.Text = "Letras: " + conl + "\n" + "Numeros: " + conn + "\n" + "Simbolo: " + cons;
+            
         }
     }
 }

@@ -11,3 +11,9 @@ C:\Users\Dell E5420\Documents\SEMESTRES\1S2018\Lenguajes\Practica1\Practica1\obj
 =======
 C:\Users\Brian\Documents\Semestres\LFP\Identificador\Identificador-Simbolos\Practica1\obj\x86\Debug\Practica1.csprojResolveAssemblyReference.cache
 >>>>>>> origin/master
+C:\Users\Dell E5420\Documents\SEMESTRES\1S2018\Lenguajes\Practica1\Practica1\bin\Debug\Practica1.exe
+C:\Users\Dell E5420\Documents\SEMESTRES\1S2018\Lenguajes\Practica1\Practica1\bin\Debug\Practica1.pdb
+C:\Users\Dell E5420\Documents\SEMESTRES\1S2018\Lenguajes\Practica1\Practica1\obj\x86\Debug\Practica1.csprojResolveAssemblyReference.cache
+C:\Users\Dell E5420\Documents\SEMESTRES\1S2018\Lenguajes\Practica1\Practica1\obj\x86\Debug\Practica1.Form1.resources
+C:\Users\Dell E5420\Documents\SEMESTRES\1S2018\Lenguajes\Practica1\Practica1\obj\x86\Debug\Practica1.Properties.Resources.resources
+C:\Users\Dell E5420\Documents\SEMESTRES\1S2018\Lenguajes\Practica1\Practica1\obj\x86\Debug\Practica1.csproj.GenerateResource.Cache

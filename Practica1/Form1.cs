@@ -51,21 +51,21 @@ namespace Practica1
             {
                 if(Char.IsLetter(cadena[i]))
                 {
-                    resultados.Items.Add((cadena[i].ToString()) + "--> " + "LETRA");
+                    resultados.Items.Add((cadena[i].ToString()) + " --> " + "LETRA");
                     conl++;
                 }
                 else if (Char.IsDigit(cadena[i]))
                 {
-                    resultados.Items.Add((cadena[i].ToString()) + "--> " + "NUMERO");
+                    resultados.Items.Add((cadena[i].ToString()) + " --> " + "NUMERO");
                     conn++;
                 }
-                else if (cadena[i] == 32 || cadena[i] == 10)
+                else if (cadena[i] == 32 || cadena[i] == 10 || cadena[i] == 9)
                 {
                     cadena[i] = cadena[i + 1];
                 }
 
                 else {
-                    resultados.Items.Add((cadena[i].ToString()) + "--> " + "SIMBOLO");
+                    resultados.Items.Add((cadena[i].ToString()) + " --> " + "SIMBOLO");
                     cons++;
                 }
             }
